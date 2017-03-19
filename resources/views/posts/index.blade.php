@@ -53,8 +53,7 @@
 					<td><h4> <small>{{ date("F j, Y h:m A" , strtotime($post->created_at))}}</small> </h4></td> 
 				</tr>
 			@endforeach
-			</table>
-			<hr>
+			</table> 
 		</div> 
 
 		<!--to show the pagination field-->
